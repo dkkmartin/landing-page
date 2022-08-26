@@ -1,22 +1,85 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
-ul {
+ul, li, a {
     display: flex;
     gap: 2rem;
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
 }
 
 .head {
     display: flex;
     justify-content: space-around;
+    background-color: #1F2937;
 
+}
+
+.head-hero {
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+    background-color: #1F2937;
 }
 
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+    
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 22%
+
+}
+
+.hero-paragraph {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 110%;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.hero-button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    width: 130px;
+    height: 40px;
+}
+
+.hero-image-box {
+    display: flex;
+    align-items: center;
+    color: #f9faf8;
+    background-color: grey;
+    padding: 0px 130px;
+    box-sizing: border-box;
 }
 
 .middle {
@@ -26,6 +89,8 @@ ul {
     flex-direction: column;
     gap: 2rem;
 }
+
+
 
 .middle-boxes {
     display: flex;
@@ -39,4 +104,27 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#quote-author {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    /* margin-top: auto; */
 }
