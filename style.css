@@ -33,6 +33,7 @@ ul, li, a {
     flex-direction: column;
     row-gap: 100px;
     background-color: #1F2937;
+    padding-bottom: 150px;
 }
 
 .hero {
@@ -73,29 +74,38 @@ ul, li, a {
     height: 40px;
 }
 
-.hero-image-box {
-    display: flex;
-    align-items: center;
-    color: #f9faf8;
-    background-color: grey;
-    padding: 0px 130px;
-    box-sizing: border-box;
+#hero-image {
+    width: 550px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
+
 .middle {
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 2rem;
+    margin-bottom: 7rem;
+
 }
 
-
+.middle-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
 
 .middle-boxes {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 4rem;
+
 }
+
 
 .middle-image1,
 .middle-image2,
@@ -104,27 +114,94 @@ ul, li, a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-basis: 10%;
+}
+
+#middle-photo {
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+#image-paragraph {
+    text-align: center;
+    color: #1F2937;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
     align-self: center;
+    background-color: #e5e7eb;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 50%;
+    margin-left: 400px;
+    text-align: left;
+    margin-bottom: 0;
 }
 
 #quote-author {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 10px;
+    justify-content: center;
+    padding-left: 35rem;
+    font-weight: bold;
+    color: #1F2937;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 30px;
 }
 
 .signup {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 100px 400px;
+    padding: 50px;
+    border-radius: 10px;
+    gap: 4rem;
+    
+}
+
+.signup-text {
+    text-align: start;
+}
+
+.signup-text>:first-child {
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+#signup-description {
+    padding: 0;
+    margin: 0;
+}
+
+#signup-button {
+    font-size: 18px;
+    border-radius: 10px;
+    background: #3882f6;
+    border: 3px solid #e5e7eb;
+    color: #e5e7eb;
+    padding: 0px 30px;
+    font-weight: bold;
+    margin: 0px 50px;
 }
 
 footer {
     display: flex;
     justify-content: center;
-    /* margin-top: auto; */
+    margin-top: auto;
+    background-color: #1F2937;
+    color: #f9faf8;
 }
