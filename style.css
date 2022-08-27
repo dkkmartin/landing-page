@@ -139,11 +139,14 @@ ul, li, a {
 }
 
 #quote-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
     width: 50%;
-    margin-left: 400px;
+    margin-left: 500px;
     text-align: left;
     margin-bottom: 0;
 }
@@ -156,6 +159,7 @@ ul, li, a {
     color: #1F2937;
     font-size: 20px;
     margin: 0;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
