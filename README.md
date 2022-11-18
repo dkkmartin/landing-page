@@ -1,3 +1,3 @@
 # Landing Page
 
-# [Live site](https://dkkmartin.github.io/landing-page/)
+# [Live Demo](https://dkkmartin.github.io/landing-page/)
